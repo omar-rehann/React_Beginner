@@ -14,6 +14,8 @@ Each project focuses on a specific concept in React — such as API fetching, au
 | 3 | **Login & Register** | A simple authentication form with validation. | useState, form validation, conditional rendering |
 | 4 | **Mini Dashboard** | A small admin-style dashboard with charts and navigation. | Routing, layout design, chart integration |
 | 5 | **Mini Portfolio** | A personal portfolio to showcase my work and skills. | Responsive design, smooth animations, React components |
+| 6 | **Prayer Time** | A personal portfolio to showcase my work and skills. | Responsive design, React components |
+
 
 ---
 
