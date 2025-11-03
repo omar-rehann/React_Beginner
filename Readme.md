@@ -9,12 +9,14 @@ Each project focuses on a specific concept in React — such as API fetching, au
 
 | # | Project Name | Description | Main Features |
 |---|---------------|--------------|----------------|
-| 1 | **ToDo List** | A simple task manager to add, edit, and delete daily tasks. | useState, CRUD operations, local storage |
+| 1 | **ToDo List** | Task management app to create, update, and remove daily tasks efficiently | useState, CRUD operations, local storage |
 | 2 | **Weather App** | Displays real-time weather data fetched from OpenWeather API. | API integration (axios/fetch), dynamic UI |
 | 3 | **Login & Register** | A simple authentication form with validation. | useState, form validation, conditional rendering |
 | 4 | **Mini Dashboard** | A small admin-style dashboard with charts and navigation. | Routing, layout design, chart integration |
 | 5 | **Mini Portfolio** | A personal portfolio to showcase my work and skills. | Responsive design, smooth animations, React components |
-| 6 | **Prayer Time** | A personal portfolio to showcase my work and skills. | Responsive design, React components |
+| 6 | **Prayer Time** | Displays daily prayer times based on location and timing data. | Responsive design, React components |
+| 7| **Note App** | Simple note-taking application for writing, editing, and organizing notes. | Responsive design, React components |
+
 
 ---
 
