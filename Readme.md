@@ -16,7 +16,6 @@ Each project focuses on a specific concept in React — such as API fetching, au
 | 5 | **Mini Portfolio** | A personal portfolio to showcase my work and skills. | Responsive design, smooth animations, React components |
 | 6 | **Prayer Time** | A personal portfolio to showcase my work and skills. | Responsive design, React components |
 
-
 ---
 
 ## 🧠 Tech Stack

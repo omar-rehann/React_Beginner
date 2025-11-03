@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f4f8;
+}
+
+.parent {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.parent .start {
+    text-align: center;
+    color: #2d3748;
+}
+
+.parent .content button {
+    background: linear-gradient(145deg, #1a365d, #2c5282);
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.parent .content button:hover {
+    background: linear-gradient(145deg, #2c5282, #4299e1);
+}
+
+.parent .structure {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.parent .structure .noteapp {
+    background-color: #fef5e7;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #fbd38d;
+}
+
+.parent .structure .noteapp textarea {
+    resize: none;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    outline: none;
+    display: block;
+    background-color: #ffffff;
+    color: #2d3748;
+    padding: 10px;
+    width: 90%;
+}
+
+.parent .structure .noteapp textarea:focus {
+    border-color: #f6ad55;
+    box-shadow: 0 0 0 3px rgba(246, 173, 85, 0.2);
+}
+
+.parent .structure .noteapp button {
+    display: block;
+    width: 90%;
+    margin: 10px;
+    background: linear-gradient(145deg, #dd6b20, #f6ad55);
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.parent .structure .noteapp button:hover {
+    background: linear-gradient(145deg, #f6ad55, #ed8936);
+    transform: translateY(-1px);
+}
