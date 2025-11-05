@@ -45,5 +45,11 @@ React-Beginner/
  ├── Register/
  ├── Mini-Dashboard/
  └── Mini-Portfolio/
+ └── Prayer Time/
+ └── Note App/
+ └── Landing Page/
+ └── Dark Mode/
+
+
  ## 🔗 Link Repo 
   Link :https://github.com/omar-rehann/React_Beginner.git
