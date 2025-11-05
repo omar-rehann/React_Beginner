@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    background-color: #111;
+}
+
+.parent {
+    position: relative;
+}
+
+.parent::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 50%);
+}
+
+.parent .frist .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.parent .frist .navbar .logo {
+    color: white;
+}
+
+.parent .frist .navbar .links ul {
+    list-style-type: none;
+}
+
+.parent .frist .navbar .links ul li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+}
+
+.parent .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 97%; */
+    margin: 10px 10px;
+}
+
+.parent .footer .name h5 {
+    color: white;
+}
+
+.parent .footer .icons i {
+    margin: 10px 10px;
+    color: white;
+}
+
+.parent .swiper {
+    padding: 10px;
+    height: 80vh;
+    color: white;
+}
+
+.parent .swiper button {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 10px;
+}
+
+.parent .swiper img {
+    width: 100%;
+    cursor: pointer;
+}

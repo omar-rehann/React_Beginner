@@ -16,6 +16,9 @@ Each project focuses on a specific concept in React — such as API fetching, au
 | 5 | **Mini Portfolio** | A personal portfolio to showcase my work and skills. | Responsive design, smooth animations, React components |
 | 6 | **Prayer Time** | Displays daily prayer times based on location and timing data. | Responsive design, React components |
 | 7| **Note App** | Simple note-taking application for writing, editing, and organizing notes. | Responsive design, React components |
+| 8 | **Landing Page** | A responsive movie-themed landing page built with React and Swiper. | Responsive design, Bootstrap layout, Swiper slider |
+
+
 
 
 ---
