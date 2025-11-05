@@ -1,0 +1,39 @@
+    body {
+        font-family: sans-serif;
+    }
+    
+    .parent {
+        background-color: white;
+        color: black;
+        height: 100vh;
+    }
+    
+    .parent .icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    
+    .parent .box {
+        background-color: #ddd;
+        padding: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .dark_mode {
+        background-color: black;
+        color: black;
+        height: 100vh;
+    }
+    
+    .dark_light {
+        background-color: white;
+        color: black;
+        height: 100vh;
+    }
