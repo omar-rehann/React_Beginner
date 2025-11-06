@@ -18,7 +18,7 @@ Each project focuses on a specific concept in React — such as API fetching, au
 | 7| **Note App** | Simple note-taking application for writing, editing, and organizing notes. | Responsive design, React components |
 | 8 | **Landing Page** | A responsive movie-themed landing page built with React and Swiper. | Responsive design, Bootstrap layout, Swiper slider |
 | 9 | **Dark Mode** | A responsive movie-themed landing page built with React and Swiper. | Responsive design, Bootstrap layout, Swiper slider |
-
+| 10 | EduBridge | A modern and responsive online learning platform built with React and Swiper. | Interactive UI, Bootstrap layout, Swiper slider |
 
 
 
