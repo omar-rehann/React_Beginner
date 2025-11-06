@@ -1,0 +1,42 @@
+.background {
+    background-color: #252b42;
+    padding: 10px;
+    height: 100vh;
+    position: relative;
+}
+
+.background .continer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2;
+}
+
+.background .continer h4,
+.background .continer h2,
+.background .continer p {
+    color: white;
+}
+
+.background .flex_button button.join,
+.background .flex_button button.learn {
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.background .flex_button button.join {
+    background-color: red;
+}
+
+.background .flex_button button.learn {
+    background-color: white;
+    color: black;
+}

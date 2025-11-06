@@ -1,0 +1,41 @@
+.box {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    line-height: 2;
+}
+
+.box i {
+    color: black;
+    font-size: 25px;
+}
+
+.box h2 {
+    position: relative;
+}
+
+.box h2::before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    bottom: 0px;
+    left: 0px;
+    background-color: black;
+    animation: moveLine 2s linear infinite;
+    transition: 2s;
+}
+
+@keyframes moveLine {
+    0% {
+        width: 0px;
+    }
+    50% {
+        width: 10%;
+    }
+    100% {
+        width: 0%;
+    }
+}

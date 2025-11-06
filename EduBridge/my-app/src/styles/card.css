@@ -1,0 +1,16 @@
+.all_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252b42;
+}
+
+@media (max-width:767px) {
+    .all_card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        background-color: #252b42;
+    }
+}
