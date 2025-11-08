@@ -1,0 +1,109 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.resume {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Container for Education and Job Experience */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.first,
+.second {
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.first h2,
+.second h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.first h3,
+.second h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+
+/* Content Section */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.first_box,
+.second_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.box {
+    flex: 1 1 45%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    font-size: 1.3em;
+    color: #495057;
+    margin-bottom: 10px;
+}
+
+.box h5 {
+    font-size: 1em;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.box h6 {
+    font-size: 0.9em;
+    color: #adb5bd;
+    margin: 0;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .first_box,
+    .second_box {
+        flex-direction: column;
+    }
+    .box {
+        flex: 1 1 100%;
+    }
+}

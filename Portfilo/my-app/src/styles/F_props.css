@@ -1,0 +1,25 @@
+.all_props {
+    background-color: white;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 96%;
+    margin-top: 20px
+}
+
+.continer {
+    margin-top: 20px;
+}
+
+.all_props .box {
+    width: 98%;
+    padding: 20px;
+}
+
+.continer {
+    margin-left: 20px;
+}
+
+.content {
+    align-items: center;
+}

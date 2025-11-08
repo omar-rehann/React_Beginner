@@ -1,0 +1,27 @@
+.contact {
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact .continer {
+    text-align: center;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    width: 90%;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 10px auto;
+}
+
+.contact button {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}

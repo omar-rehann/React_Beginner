@@ -1,0 +1,65 @@
+.dev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.dev .image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dev .details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.dev .details h2 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.dev .details h3 {
+    margin: 5px 0;
+    color: #555;
+    font-weight: normal;
+}
+
+.dev .close a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.dev .details p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.dev .close button {
+    background: crimson;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dev .close {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    ;
+}
